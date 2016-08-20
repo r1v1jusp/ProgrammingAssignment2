@@ -10,7 +10,8 @@
 
 ## Function cacheSolve takes an argument that is the output of the above function.
 ## The function first checks if the inverse has been created and if so, returns the cached value
-## If not, it creates the inverse and caches it by calling appropriate function on its first argument
+## If not, it creates the inverse, caches it by calling appropriate function on its first argument
+## and then returns the inverse.
 ##
 
 
@@ -66,3 +67,4 @@ cacheSolve <- function(x, ...) {
     x$setinverse(inv)
     inv
 }
+
